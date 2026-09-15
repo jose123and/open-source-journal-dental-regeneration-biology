@@ -1,0 +1,15 @@
+.gitignore
+.vercelignore
+PROJECT_MANIFEST.txt
+README.md
+about.html
+articles.html
+articles/2026/001/index.html
+articles/2026/001/mas-alla-de-la-revitalizacion.pdf
+assets/css/styles.css
+editorial.html
+favicon.svg
+index.html
+robots.txt
+sitemap.xml
+vercel.json
