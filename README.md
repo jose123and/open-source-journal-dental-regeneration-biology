@@ -13,7 +13,7 @@ Static academic publication prepared for Vercel.
 ## Required before the definitive production commit
 Replace **all** occurrences of:
 
-`__SITE_URL__`
+`https://open-source-journal-dental-regenera.vercel.app`
 
 with the exact production URL assigned by Vercel, for example:
 
