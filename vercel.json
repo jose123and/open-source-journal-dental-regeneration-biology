@@ -32,6 +32,10 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600"
+        },
+        {
+          "key": "Link",
+          "value": "<https://open-source-journal-of-dental-regeneration-biology.carpulenet.com/article.pdf>; rel=\"canonical\""
         }
       ]
     },
@@ -53,6 +57,10 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600"
+        },
+        {
+          "key": "Link",
+          "value": "<https://clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com/article.pdf>; rel=\"canonical\""
         }
       ]
     },
@@ -74,11 +82,40 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600"
+        },
+        {
+          "key": "Link",
+          "value": "<https://clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com/article.pdf>; rel=\"canonical\""
         }
       ]
     },
     {
       "source": "/articles/2026/004/de-la-hipotesis-al-manuscrito.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        },
+        {
+          "key": "Link",
+          "value": "<https://de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com/article.pdf>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/article.pdf",
       "headers": [
         {
           "key": "Content-Type",
@@ -102,20 +139,59 @@
       "source": "/article.pdf",
       "headers": [
         {
-          "key": "Content-Type",
-          "value": "application/pdf"
-        },
+          "key": "Link",
+          "value": "<https://open-source-journal-of-dental-regeneration-biology.carpulenet.com/article.pdf>; rel=\"canonical\""
+        }
+      ],
+      "has": [
         {
-          "key": "Content-Disposition",
-          "value": "inline"
-        },
+          "type": "host",
+          "value": "open-source-journal-of-dental-regeneration-biology.carpulenet.com"
+        }
+      ]
+    },
+    {
+      "source": "/article.pdf",
+      "headers": [
         {
-          "key": "X-Robots-Tag",
-          "value": "index, follow"
-        },
+          "key": "Link",
+          "value": "<https://clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com/article.pdf>; rel=\"canonical\""
+        }
+      ],
+      "has": [
         {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
+          "type": "host",
+          "value": "clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com"
+        }
+      ]
+    },
+    {
+      "source": "/article.pdf",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com/article.pdf>; rel=\"canonical\""
+        }
+      ],
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com"
+        }
+      ]
+    },
+    {
+      "source": "/article.pdf",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com/article.pdf>; rel=\"canonical\""
+        }
+      ],
+      "has": [
+        {
+          "type": "host",
+          "value": "de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com"
         }
       ]
     }
