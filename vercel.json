@@ -34,6 +34,255 @@
           "value": "public, max-age=3600"
         }
       ]
+    },
+    {
+      "source": "/articles/2026/002/clinical-ai-safety-gap.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/articles/2026/003/clinical-laboratory-complete-dentures.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/articles/2026/004/de-la-hipotesis-al-manuscrito.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/article.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "^/$",
+      "has": [
+        {
+          "type": "host",
+          "value": "open-source-journal-of-dental-regeneration-biology.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/001/index.html"
+    },
+    {
+      "src": "^/article\\.pdf$",
+      "has": [
+        {
+          "type": "host",
+          "value": "open-source-journal-of-dental-regeneration-biology.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/001/mas-alla-de-la-revitalizacion.pdf"
+    },
+    {
+      "src": "^/sitemap\\.xml$",
+      "has": [
+        {
+          "type": "host",
+          "value": "open-source-journal-of-dental-regeneration-biology.carpulenet.com"
+        }
+      ],
+      "dest": "/sitemaps/001.xml"
+    },
+    {
+      "src": "^/robots\\.txt$",
+      "has": [
+        {
+          "type": "host",
+          "value": "open-source-journal-of-dental-regeneration-biology.carpulenet.com"
+        }
+      ],
+      "dest": "/robots/001.txt"
+    },
+    {
+      "src": "^/$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/002/index.html"
+    },
+    {
+      "src": "^/article\\.pdf$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/002/clinical-ai-safety-gap.pdf"
+    },
+    {
+      "src": "^/sitemap\\.xml$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com"
+        }
+      ],
+      "dest": "/sitemaps/002.xml"
+    },
+    {
+      "src": "^/robots\\.txt$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com"
+        }
+      ],
+      "dest": "/robots/002.txt"
+    },
+    {
+      "src": "^/$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/003/index.html"
+    },
+    {
+      "src": "^/article\\.pdf$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/003/clinical-laboratory-complete-dentures.pdf"
+    },
+    {
+      "src": "^/sitemap\\.xml$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com"
+        }
+      ],
+      "dest": "/sitemaps/003.xml"
+    },
+    {
+      "src": "^/robots\\.txt$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com"
+        }
+      ],
+      "dest": "/robots/003.txt"
+    },
+    {
+      "src": "^/$",
+      "has": [
+        {
+          "type": "host",
+          "value": "de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/004/index.html"
+    },
+    {
+      "src": "^/article\\.pdf$",
+      "has": [
+        {
+          "type": "host",
+          "value": "de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/004/de-la-hipotesis-al-manuscrito.pdf"
+    },
+    {
+      "src": "^/sitemap\\.xml$",
+      "has": [
+        {
+          "type": "host",
+          "value": "de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com"
+        }
+      ],
+      "dest": "/sitemaps/004.xml"
+    },
+    {
+      "src": "^/robots\\.txt$",
+      "has": [
+        {
+          "type": "host",
+          "value": "de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com"
+        }
+      ],
+      "dest": "/robots/004.txt"
+    },
+    {
+      "handle": "filesystem"
     }
   ]
 }

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://open-source-journal-of-dental-regeneration-biology.carpulenet.com/sitemap.xml

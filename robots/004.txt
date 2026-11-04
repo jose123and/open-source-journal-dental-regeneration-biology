@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com/sitemap.xml
