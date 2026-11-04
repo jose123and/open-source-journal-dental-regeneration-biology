@@ -1,15 +1,29 @@
-.gitignore
-.vercelignore
-PROJECT_MANIFEST.txt
-README.md
-about.html
-articles.html
-articles/2026/001/index.html
-articles/2026/001/mas-alla-de-la-revitalizacion.pdf
-assets/css/styles.css
-editorial.html
-favicon.svg
-index.html
-robots.txt
-sitemap.xml
-vercel.json
+# Inventario de entrega | CarpuleNet (4 artículos)
+
+URL general del catálogo: https://open-source-journal-of-dental-regeneration-biology.carpulenet.com/journal
+
+[001] Más allá de la revitalización: criterios biológicos para evaluar la regeneración del complejo dentino-pulpar en la endodoncia contemporánea
+  PDF físico: articles/2026/001/mas-alla-de-la-revitalizacion.pdf
+  PDF público canónico: https://open-source-journal-of-dental-regeneration-biology.carpulenet.com/article.pdf
+  Landing: https://open-source-journal-of-dental-regeneration-biology.carpulenet.com/
+
+[002] The Clinical AI Safety Gap from Correct Answers to Safer Decisions
+  PDF físico: articles/2026/002/clinical-ai-safety-gap.pdf
+  PDF público canónico: https://clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com/article.pdf
+  Landing: https://clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com/
+
+[003] Clinical–Laboratory Variability in Digitally Fabricated Complete Dentures: A Critical Evidence Synthesis and Traceability Framework
+  PDF físico: articles/2026/003/clinical-laboratory-complete-dentures.pdf
+  PDF público canónico: https://clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com/article.pdf
+  Landing: https://clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com/
+
+[004] De la hipótesis al manuscrito: ¿puede una inteligencia artificial conducir una investigación computacional completa?
+  PDF físico: articles/2026/004/de-la-hipotesis-al-manuscrito.pdf
+  PDF público canónico: https://de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com/article.pdf
+  Landing: https://de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com/
+
+Sitemaps individuales: sitemaps/001.xml ... sitemaps/004.xml
+Robots individuales: robots/001.txt ... robots/004.txt
+Reescrituras host/path: vercel.json
+Comprobación automatizada: scripts/verify_project.py
+Estado remoto: NO publicado por este ZIP

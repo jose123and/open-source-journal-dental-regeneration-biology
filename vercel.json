@@ -208,6 +208,16 @@
       "dest": "/articles/2026/001/index.html"
     },
     {
+      "src": "^/index\\.html$",
+      "has": [
+        {
+          "type": "host",
+          "value": "open-source-journal-of-dental-regeneration-biology.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/001/index.html"
+    },
+    {
       "src": "^/article\\.pdf$",
       "has": [
         {
@@ -239,6 +249,16 @@
     },
     {
       "src": "^/$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-ai-safety-gap-from-correct-answers-to-safer-decisions.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/002/index.html"
+    },
+    {
+      "src": "^/index\\.html$",
       "has": [
         {
           "type": "host",
@@ -288,6 +308,16 @@
       "dest": "/articles/2026/003/index.html"
     },
     {
+      "src": "^/index\\.html$",
+      "has": [
+        {
+          "type": "host",
+          "value": "clinical-laboratory-variability-in-digital-complete-dentures.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/003/index.html"
+    },
+    {
       "src": "^/article\\.pdf$",
       "has": [
         {
@@ -328,6 +358,16 @@
       "dest": "/articles/2026/004/index.html"
     },
     {
+      "src": "^/index\\.html$",
+      "has": [
+        {
+          "type": "host",
+          "value": "de-la-hipotesis-al-manuscrito-agentes-cientificos.carpulenet.com"
+        }
+      ],
+      "dest": "/articles/2026/004/index.html"
+    },
+    {
       "src": "^/article\\.pdf$",
       "has": [
         {
@@ -356,6 +396,10 @@
         }
       ],
       "dest": "/robots/004.txt"
+    },
+    {
+      "src": "^/journal/?$",
+      "dest": "/index.html"
     },
     {
       "handle": "filesystem"
